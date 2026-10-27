@@ -1,6 +1,6 @@
 # Fiberation Werkzeugkasten - Plugin-Repository
 
-Aktuelle Version: **0.22.12** (2026-10-27).
+Aktuelle Version: **0.22.13** (2026-10-27).
 
 In QGIS: Erweiterungen > Erweiterungen verwalten und installieren > Einstellungen > Repositorys > Hinzufuegen:
 
