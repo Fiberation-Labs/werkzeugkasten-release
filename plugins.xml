@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <plugins>
-  <pyqgis_plugin name="Fiberation Werkzeugkasten" version="0.22.17">
+  <pyqgis_plugin name="Fiberation Werkzeugkasten" version="0.22.20">
     <description>Planer-Werkzeuge fuer Plan[Goo] V2 (Telekom VDS) in einem Fenster mit Seiten: 0 Umfeld und Grundkarten laden (ALKIS, Orthofoto, Schutzgebiete, Gewaesser, Strassen.NRW/NWSIB, OSM), 1 Bestand aus Telekom-Lieferung (Extern-Export, Plan[Goo]-Projekt, MegaPlan-Rohranlage, Comsof-Rohrliste: Rohre, Kabel, Schaechte, Trassen mit Kapazitaet und Nutzung), 2 Adressen und Bedarf pruefen (ZTV 21), 3 NVT-Gebiete bilden, 4 NVT-Standorte und Sicherung, 5 Trassen je NVT planen (Vorlage, Planung, Pruefung), 6 Hauptkabel clustern, 7 Hk-Trasse je Strang (Weg-Vorlage mit Bestand als Weg, zeichnen, pruefen), 8 Kollokation (Open Access nach ZTV 21 Kap. 13: Punkte, Muffen, Kollo-Wege mit SNR), 9 Wegesicherung: Gewaesserquerungen und Landesstrassen ausserhalb OD, 10 Uebergabe nach Plan[Goo], 11 ZFP222 Ringauftraege aus dem fertigen Plan[Goo]-Projekt (leeres Projekt anlegen, Schritt fuer Schritt importieren). Jeder erzeugte Layer traegt die Schrittnummer, Gruppen ordnen sich im Layerbaum nach Nummer. Trassenbefuellung fuer Eigenausbau freischalten, Projektpfad pruefen.</description>
     <about>Sammlung einzelner Werkzeuge, die der Planer nacheinander in Plan[Goo] nutzt. Jedes Werkzeug hat einen klaren Eingang und eine klare Ausgabe; zwischen den Werkzeugen entscheidet der Planer. Werkzeug 1: Telekom-Bedarfsliste oder die APL des offenen Projekts laden, Adressen gegen ALKIS-Gebaeude pruefen (Ampel, Dubletten, Bauluecken), Bedarf je Adresse nach ZTV 21 (WE, Gewerbe, Zusatzbedarf, Sonderfaelle) bestimmen. Dazu die Laufzeit-Helfer: Trassenbefuellung auch fuer Eigenausbau, Regelsatz Fiberation ZTV 21, Pfadlaengen-Pruefung mit Arbeitskopie, Startwarnungen. Plan[Goo] V2 muss installiert sein. Aendert keine Telekom-Datei.</about>
-    <version>0.22.17</version>
+    <version>0.22.20</version>
     <qgis_minimum_version>3.34</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
     <homepage>https://github.com/Fiberation-Labs/fiberation-werkzeugkasten</homepage>
-    <file_name>fiberation_werkzeugkasten.0.22.17.zip</file_name>
+    <file_name>fiberation_werkzeugkasten.0.22.20.zip</file_name>
     <icon>https://raw.githubusercontent.com/Fiberation-Labs/werkzeugkasten-release/main/icon.svg</icon>
     <author_name>Fiberation GmbH, Markus Hachenberg</author_name>
-    <download_url>https://raw.githubusercontent.com/Fiberation-Labs/werkzeugkasten-release/main/fiberation_werkzeugkasten.0.22.17.zip</download_url>
-    <update_date>2026-10-29</update_date>
+    <download_url>https://raw.githubusercontent.com/Fiberation-Labs/werkzeugkasten-release/main/fiberation_werkzeugkasten.0.22.20.zip</download_url>
+    <update_date>2026-10-31</update_date>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
     <tracker>https://github.com/Fiberation-Labs/fiberation-werkzeugkasten/issues</tracker>
